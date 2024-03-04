@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+body{
+    background-color: rgb(167, 251, 223);
+}
+header{
+background-image: linear-gradient(rgb(88, 168, 181), rgb(13, 205, 212));
+}
+header > h1 {
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 0px black
+  
+}
+header>p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+nav{
+    background-color: rgb(2, 111, 111);
+}
+nav>a{ 
+    color: white;
+    text-decoration: none;
+    padding:25px
+}
+article>p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+ }
+
+ main{
+    min-width: 280px;
+    max-width: 1000px;
+    margin-top: 10px;
+    margin-right:50px ;
+    margin-bottom:10px;
+    margin-left:50px;
+    padding: 20px;
+    background-color: white;
+
+ }
+ main img{
+    width: 100%;
+ }
+ main.pequena{
+    width: 50%;
+ }
+ .pequena{
+    max-width: 200px;
+    display: block;
+    margin: auto
+ }
+ main a{
+    text-decoration: none;
+    background-color: aquamarine;
+ }
+ div.video{
+    background-color: rgb(38, 146, 146);
+    margin: 0px -20px 30px -20px; 
+    padding: 25px;
+    padding-bottom: 59%;
+    position: relative;
+ }
+ div.video>iframe{
+    position: absolute;
+    top: 15px;
+    left: 22px;
+    width: 90%;
+    height: 90%;
+ }
+ aside h3{
+    background-color: rgb(87, 174, 145);
+   padding-left: 20px;
+ }
+ aside>ul{
+    columns: 2;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ ul >abbr{
+    background-color: aqua;
+ }
+ footer p {
+    background-color: rgb(24, 47, 47);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+ }
+ footer a {
+    color: white;
+ }
